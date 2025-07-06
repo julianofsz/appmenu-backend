@@ -1,0 +1,13 @@
+version: "2"
+authtoken: 2ys5xO36EYOHRxiyODUzXGYDq7O_4Ak5YQmPo4B5ni52sucXS
+
+tunnels:
+  # Túnel para o seu Backend na porta 5000
+  backend:
+    proto: http
+    addr: 5000
+
+  # Túnel para o seu Frontend na porta 5173
+  frontend:
+    proto: http
+    addr: 5173
